@@ -56,7 +56,21 @@ def search_books():
 @app.route('/api/recommendations', methods=['GET'])
 def get_recommendations():
     all_books = fetch_all_books_from_db()
-    high_rated = [b for b in all_books if b.get('rating', 0) >= 4.5]
+    
+    # === 修改開始：安全過濾高分書籍 ===
+    high_rated = []
+    for b in all_books:
+        try:
+            # 強制將 rating 轉為浮點數 (float)
+            # 如果資料庫裡是字串 "4.8"，這裡會變成數字 4.8
+            rating = float(b.get('rating', 0))
+            if rating >= 4.5:
+                high_rated.append(b)
+        except (ValueError, TypeError):
+            # 如果 rating 是 "N/A" 或奇怪的文字，就跳過這本書，防止當機
+            continue
+    # === 修改結束 ===
+
     selected = random.sample(high_rated, 3) if len(high_rated) > 3 else high_rated
     return jsonify(selected), 200
 
@@ -91,4 +105,5 @@ if __name__ == '__main__':
     logging.info("🔥 ReadWise 全端伺服器 (含評論系統) 啟動中...")
 
     app.run(debug=True, port=5000)
+
 
