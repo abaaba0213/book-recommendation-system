@@ -21,7 +21,7 @@ db = firestore.client()
 # === Helper ===
 def fetch_all_books_from_db():
     try:
-        docs = db.collection('books').stream()
+        docs = db.collection('book').stream()
         return [{**doc.to_dict(), 'id': doc.id} for doc in docs]
     except Exception as e:
         logging.error(f"讀取資料庫失敗: {e}")
@@ -91,3 +91,4 @@ if __name__ == '__main__':
     logging.info("🔥 ReadWise 全端伺服器 (含評論系統) 啟動中...")
 
     app.run(debug=True, port=5000)
+
