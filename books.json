@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "title": "原子習慣",
+    "author": "James Clear",
+    "category": "自我成長",
+    "rating": 4.8,
+    "tags": ["心理學", "習慣", "生產力"],
+    "description": "每天進步1%，一年後你會進步37倍。細微改變帶來巨大成就的實證法則。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Atomic+Habits"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript 大全",
+    "author": "David Flanagan",
+    "category": "科技",
+    "rating": 4.5,
+    "tags": ["程式設計", "前端", "Web"],
+    "description": "被譽為 JavaScript 聖經，涵蓋 ES6+ 最新標準，前端工程師必備案頭書。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=JS+Definitive"
+  },
+  {
+    "id": 3,
+    "title": "設計的心理學",
+    "author": "Don Norman",
+    "category": "設計",
+    "rating": 4.7,
+    "tags": ["UX", "心理學", "產品設計"],
+    "description": "從日常用品到高科技產品，揭開良好設計背後的心理學原理。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Design+Psych"
+  },
+  {
+    "id": 4,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "科技",
+    "rating": 4.9,
+    "tags": ["程式設計", "軟體工程", "品質"],
+    "description": "無瑕的程式碼：敏捷軟體開發技巧守則，讓你的程式碼可讀性更高。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Clean+Code"
+  },
+  {
+    "id": 5,
+    "title": "被討厭的勇氣",
+    "author": "岸見一郎",
+    "category": "自我成長",
+    "rating": 4.6,
+    "tags": ["阿德勒", "心理學", "哲學"],
+    "description": "自我啟發之父阿德勒的哲學課，讓你有勇氣面對真實的自己。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Courage"
+  },
+  {
+    "id": 6,
+    "title": "解憂雜貨店",
+    "author": "東野圭吾",
+    "category": "文學",
+    "rating": 4.8,
+    "tags": ["小說", "懸疑", "溫馨"],
+    "description": "一間能解決煩惱的雜貨店，跨越時空的信件交流，串起溫暖人心的故事。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Miracles"
+  },
+  {
+    "id": 7,
+    "title": "富爸爸，窮爸爸",
+    "author": "Robert Kiyosaki",
+    "category": "商業",
+    "rating": 4.7,
+    "tags": ["理財", "投資", "思維"],
+    "description": "打破你對金錢的既有認知，學會讓錢為你工作，而非為錢工作。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Rich+Dad"
+  },
+  {
+    "id": 8,
+    "title": "黑客與畫家",
+    "author": "Paul Graham",
+    "category": "科技",
+    "rating": 4.6,
+    "tags": ["創業", "駭客", "隨筆"],
+    "description": "矽谷創業教父 Paul Graham 的經典文集，探討程式設計、創業與財富的本質。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Hackers+Painters"
+  },
+  {
+    "id": 9,
+    "title": "人類大歷史",
+    "author": "Yuval Noah Harari",
+    "category": "文學",
+    "rating": 4.9,
+    "tags": ["歷史", "人類學", "科普"],
+    "description": "從認知革命到科學革命，重新審視人類這個物種的過去與未來。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Sapiens"
+  },
+  {
+    "id": 10,
+    "title": "深度工作力",
+    "author": "Cal Newport",
+    "category": "自我成長",
+    "rating": 4.5,
+    "tags": ["生產力", "專注", "職場"],
+    "description": "在分心的世界中，深度工作是你最稀缺也最有價值的超能力。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Deep+Work"
+  },
+  {
+    "id": 11,
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "category": "設計",
+    "rating": 4.6,
+    "tags": ["UX", "網頁設計", "易用性"],
+    "description": "訪客至上的網頁設計秘笈，直覺式設計的經典入門書。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Dont+Think"
+  },
+  {
+    "id": 12,
+    "title": "演算法圖鑑",
+    "author": "石田保輝",
+    "category": "科技",
+    "rating": 4.3,
+    "tags": ["演算法", "圖解", "基礎"],
+    "description": "不需要複雜的數學，用圖片就能看懂 26 種主要的演算法與資料結構。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Algorithms"
+  },
+  {
+    "id": 13,
+    "title": "零到一",
+    "author": "Peter Thiel",
+    "category": "商業",
+    "rating": 4.7,
+    "tags": ["創業", "創新", "矽谷"],
+    "description": "PayPal 創辦人親授，如何打造未來的獨角獸企業，創造壟斷價值。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Zero+to+One"
+  },
+  {
+    "id": 14,
+    "title": "小王子",
+    "author": "Antoine de Saint-Exupéry",
+    "category": "文學",
+    "rating": 5.0,
+    "tags": ["經典", "童話", "哲學"],
+    "description": "所有大人的必讀之書。真正重要的東西，是用眼睛看不見的。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Little+Prince"
+  },
+  {
+    "id": 15,
+    "title": "寫給大家看的設計書",
+    "author": "Robin Williams",
+    "category": "設計",
+    "rating": 4.5,
+    "tags": ["排版", "美學", "平面設計"],
+    "description": "掌握親密性、對齊、重複、對比四大原則，讓你的設計瞬間升級。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Design+For+All"
+  },
+  {
+    "id": 16,
+    "title": "重構：改善既有程式的設計",
+    "author": "Martin Fowler",
+    "category": "科技",
+    "rating": 4.8,
+    "tags": ["重構", "程式設計", "架構"],
+    "description": "改善既有程式碼的經典指南，讓軟體更易於維護與擴充。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Refactoring"
+  },
+  {
+    "id": 17,
+    "title": "思考，快與慢",
+    "author": "Daniel Kahneman",
+    "category": "自我成長",
+    "rating": 4.4,
+    "tags": ["心理學", "決策", "行為經濟學"],
+    "description": "諾貝爾獎得主解析大腦的雙系統運作，揭開人類判斷與決策的秘密。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Thinking+Fast"
+  },
+  {
+    "id": 18,
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "文學",
+    "rating": 4.7,
+    "tags": ["反烏托邦", "經典", "政治"],
+    "description": "老大哥在看著你。極權主義下的監控與思想控制，二十世紀最駭人的預言。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=1984"
+  },
+  {
+    "id": 19,
+    "title": "字型散步",
+    "author": "柯志杰",
+    "category": "設計",
+    "rating": 4.2,
+    "tags": ["字體", "觀察", "台灣"],
+    "description": "日常生活的字體觀察學，帶你重新發現台灣街頭文字的魅力。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Font+Walk"
+  },
+  {
+    "id": 20,
+    "title": "影響力",
+    "author": "Robert B. Cialdini",
+    "category": "商業",
+    "rating": 4.6,
+    "tags": ["行銷", "心理學", "說服"],
+    "description": "揭開讓人點頭答應的六大心理原則，行銷人與業務必讀經典。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Influence"
+  },
+  {
+    "id": 21,
+    "title": "軟體開發者修煉之道",
+    "author": "Dave Thomas",
+    "category": "科技",
+    "rating": 4.9,
+    "tags": ["職涯", "程式設計", "敏捷"],
+    "description": "從小工到專家，務實的程式設計師如何思考、編碼與解決問題。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Pragmatic"
+  },
+  {
+    "id": 22,
+    "title": "百年孤寂",
+    "author": "Gabriel García Márquez",
+    "category": "文學",
+    "rating": 4.8,
+    "tags": ["魔幻寫實", "經典", "諾貝爾獎"],
+    "description": "馬康多小鎮百年的興衰，拉丁美洲魔幻寫實主義的巔峰之作。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Solitude"
+  },
+  {
+    "id": 23,
+    "title": "心流",
+    "author": "Mihaly Csikszentmihalyi",
+    "category": "自我成長",
+    "rating": 4.5,
+    "tags": ["心理學", "幸福", "專注"],
+    "description": "探索最優體驗的心理學，當你全神貫注時，將感受到極致的快樂。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Flow"
+  },
+  {
+    "id": 24,
+    "title": "配色設計學",
+    "author": "坂本伸二",
+    "category": "設計",
+    "rating": 4.3,
+    "tags": ["色彩", "美學", "工具書"],
+    "description": "無論是簡報、網頁還是海報，教你運用色彩傳達正確的情感。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Color+Design"
+  },
+  {
+    "id": 25,
+    "title": "金字塔原理",
+    "author": "Barbara Minto",
+    "category": "商業",
+    "rating": 4.4,
+    "tags": ["邏輯", "寫作", "溝通"],
+    "description": "麥肯錫經典思考法，教你如何邏輯清晰地思考、寫作與解決問題。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Pyramid"
+  },
+  {
+    "id": 26,
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "category": "科技",
+    "rating": 4.9,
+    "tags": ["Java", "進階", "程式設計"],
+    "description": "Java 開發者的必讀聖經，包含 90 條極具價值的實戰建議。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Effective+Java"
+  },
+  {
+    "id": 27,
+    "title": "挪威的森林",
+    "author": "村上春樹",
+    "category": "文學",
+    "rating": 4.5,
+    "tags": ["愛情", "日本文學", "青春"],
+    "description": "每個人都有屬於自己的一片森林。村上春樹最膾炙人口的愛情經典。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Norwegian+Wood"
+  },
+  {
+    "id": 28,
+    "title": "UX 從新手到高手",
+    "author": "廖居正",
+    "category": "設計",
+    "rating": 4.4,
+    "tags": ["UX", "職場", "實戰"],
+    "description": "台灣本土設計師的 UX 實戰經驗分享，適合轉職與入門者。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=UX+Beginner"
+  },
+  {
+    "id": 29,
+    "title": "原則",
+    "author": "Ray Dalio",
+    "category": "商業",
+    "rating": 4.6,
+    "tags": ["管理", "決策", "人生"],
+    "description": "橋水基金創辦人公開他的生活與工作原則，教你如何面對現實與決策。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=Principles"
+  },
+  {
+    "id": 30,
+    "title": "圖解 HTTP",
+    "author": "上野宣",
+    "category": "科技",
+    "rating": 4.5,
+    "tags": ["網路", "HTTP", "基礎"],
+    "description": "工程師都該懂的網路基礎，用圖解方式輕鬆搞懂 HTTP 協定。",
+    "image": "https://placehold.co/300x450/EEE/31343C?text=HTTP"
+  }
+]
