@@ -10,7 +10,7 @@ from datetime import datetime
 
 # === 1. 設定日誌與伺服器 ===
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-app = Flask(__name__)
+app = Flask(__name__, static_folder='.', static_url_path='')
 CORS(app)
 
 # === 2. 初始化 Firebase ===
@@ -26,6 +26,11 @@ def fetch_all_books_from_db():
     except Exception as e:
         logging.error(f"讀取資料庫失敗: {e}")
         return []
+
+# === 新增：首頁路由 (加在 API 1 之前) ===
+@app.route('/')
+def home():
+    return app.send_static_file('index.html')
 
 # === API 1: 取得書籍列表 ===
 @app.route('/api/books', methods=['GET'])
@@ -84,4 +89,5 @@ def add_review():
 
 if __name__ == '__main__':
     logging.info("🔥 ReadWise 全端伺服器 (含評論系統) 啟動中...")
+
     app.run(debug=True, port=5000)
