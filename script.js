@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app); 
 const provider = new GoogleAuthProvider();
-const API_URL = "http://127.0.0.1:5000/api";
+const API_URL = "/api";
 
 const appState = { books: [], user: null, likedBookIds: [], filter: 'all' };
 
@@ -473,4 +473,5 @@ document.getElementById('admin-upload-btn').addEventListener('click', async () =
         alert("匯入失敗，請檢查 Console");
     }
 });
+
 init();
