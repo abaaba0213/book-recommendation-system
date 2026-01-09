@@ -5,13 +5,13 @@ import { getAuth, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChang
 
 // Firebase Config
 const firebaseConfig = {
-    apiKey: "AIzaSyCS3FCuhJU-0MsnsVn4T1b85SFznW_XLrs",
-    authDomain: "book-recommendation-syst-178cb.firebaseapp.com",
-    projectId: "book-recommendation-syst-178cb",
-    storageBucket: "book-recommendation-syst-178cb.firebasestorage.app",
-    messagingSenderId: "184709716840",
-    appId: "1:184709716840:web:27fdfeae38d6ec4fee94dd",
-    measurementId: "G-XLF0VK5VCW"
+  apiKey: "AIzaSyBevMWhajxGSGgC95p7NXgfpbu5h_n1uJw",
+  authDomain: "project-2765231464479629338.firebaseapp.com",
+  projectId: "project-2765231464479629338",
+  storageBucket: "project-2765231464479629338.firebasestorage.app",
+  messagingSenderId: "845777744000",
+  appId: "1:845777744000:web:f06a1d42a25496fbe3f665",
+  measurementId: "G-VPS6QM28NR"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -475,5 +475,6 @@ document.getElementById('admin-upload-btn').addEventListener('click', async () =
 });
 
 init();
+
 
 
